@@ -5,12 +5,6 @@ html, body {
     width: 100%;
     box-sizing: border-box;
 }
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-}
 .header {
     display: flex;
     flex-wrap: wrap;
@@ -19,6 +13,13 @@ html, body {
     color: white;
     width: 100%;
     padding: 10px;
+    box-sizing: border-box;
+}
+.header_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
 }
 .header_links {
     margin-top: 5px;
