@@ -235,5 +235,16 @@ button {
 }
 
 .footer_box {
-    
+    background-color: #1F2937;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.copy_right {
+    color: white;
 }
